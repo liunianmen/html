@@ -309,6 +309,12 @@ a{
     margin:0 auto;
     margin-top: 50px;
 }
+#tuiJian{
+    margin-top: 0;
+}
+#hotProc{
+    margin-top: -15px;
+}
 .flash-title{
     width: 100%;
     height: 58px;
@@ -516,10 +522,22 @@ a{
     opacity: 0.8;
 }
 /*小米首页小米闪购结束*/
+.miImg{
+    width: 1226px;
+    height: 120px;
+    margin: 30px auto;
+}
+#imgFirst{
+    margin-top: 0;
+}
+.miImg img{
+    width: 1226px;
+    height: 120px;
+}
 /*小米商品开始*/
 .shop-big-box{
     width: 100%;
-    height: 6000px;
+    height: 6800px;
     background: #f5f5f5;
 }
 /*小米首页手机开始*/
@@ -697,6 +715,12 @@ a{
     text-align: center;
     position: relative;
     box-sizing: border-box;
+    transition: transform 0.3s ease-in-out;
+
+}
+.tv-show:hover{
+    box-shadow:0 10px 50px rgba(51,51,51,0.25);
+    transform: translateY(-5px);
 
 }
 .tv-show:hover .tvMore{
