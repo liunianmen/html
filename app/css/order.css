@@ -1,0 +1,311 @@
+.container{
+    width: 7.02rem;
+    height:100%;
+    min-height: 1px;
+    /*margin: 0 auto;*/
+}
+.bigBox{
+    width: 7.5rem;
+    height: 13.34rem;
+}
+.orderBox{
+    width: 100%;
+    height:13.34rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+header{
+    width: 100%;
+    height: 2.2rem;
+    background: #2450c1;
+
+   /* margin: 0 auto;*/
+}
+.header{
+    width: 7.5rem;
+    height: 2.2rem;
+    margin: 0 auto;
+    position: relative;
+
+}
+.title{
+    width: 7.02rem;
+    height: 0.38rem;
+    position: absolute;
+    top: 0.25rem;
+    left: 0.24rem;
+    display: flex;
+    justify-content: space-between;
+
+}
+.titleName{
+    font-size: 0.38rem;
+    color: #fefdfd;
+    font-family: PingFang-SC-Bold;
+    line-height: 0.38rem;
+}
+.title img{
+    width: 0.37rem;
+    height: 0.37rem;
+}
+.orderInfo{
+    width: 7.02rem;
+    height: 0.78rem;
+    position: absolute;
+    top: 1rem;
+    left: 0.24rem;
+}
+.orderInfo p:nth-child(1){
+    font-family: PingFang-SC-Bold;
+    font-size: 0.18rem;
+    color: #fefdfd;
+}
+.orderInfo p:nth-child(2){
+    font-family: PingFang-SC-Bold;
+    font-size: 0.28rem;
+    color: #fefdfd;
+}
+.orderInfo p:nth-child(3){
+    font-family: PingFang-SC-Bold;
+    font-size: 0.24rem;
+    color: #fefdfd;
+}
+.orderInfo i{
+    font-family: iconfont;
+    font-size:0.16rem;
+    color:#fff;
+}
+.content{
+    width: 100%;
+    height:12.72rem;
+    background: #eeeeee;
+  /*  margin: 0 auto;*/
+}
+.contentBox{
+    width: 7.5rem;
+    height:12.72rem;
+    position: relative;
+    margin: 0 auto;
+}
+.contentTop{
+    width: 7.5rem;
+    height:1.88rem;
+    position: absolute;
+    left: 0;
+    top: 0.28rem;
+}
+.onTime{
+    width: 7.02rem;
+    height:0.24rem;
+    position: absolute;
+    left: 0.24rem;
+    top: 0;
+    font-family: PingFang-SC-Bold;
+    font-size: 0.24rem;
+    color: #2450c1;
+}
+.onTime i{
+    font-family: iconfont;
+}
+.time{
+    width: 7.01rem;
+    height: 1.33rem;
+    background-color: #fefbfb;
+    border-radius: 0.1rem;
+    position: absolute;
+    left: 0.24rem;
+    top: 0.5rem;
+}
+.serviceTime{
+    width: 6.44rem;
+    height: 0.66rem;
+    font-family: PingFang-SC-Bold;
+    font-size: 0.24rem;
+    color: #2450c1;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    line-height: 0.66rem;
+}
+.serviceTime i{
+    font-family: iconfont;
+}
+.xian{
+    width:6.44rem;
+    height: 0.03rem;
+    border-top: dashed 0.01rem #e9e6e6;;
+    margin: 0 auto;
+
+}
+.confir{
+    width: 100%;
+    height: 1.67rem;
+    position: absolute;
+    top: 1.91rem;
+    left: 0;
+    padding-top: 0.56rem;
+}
+.confir p{
+    font-size: 0.28rem;
+    color: #2450c1;
+    text-align: center;
+
+}
+.confir p:nth-child(2){
+opacity: 0.6;
+}
+.dishes{
+    width: 7.02rem;
+    height: 3.8rem;
+    position: absolute;
+    top: 3.84rem;
+    left: 0.24rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+.dish{
+    width: 7.02rem;
+    height: 1.08rem;
+    background: #fefbfb;
+    border-radius: 0.1rem;
+    position: relative;
+}
+.dish img{
+    width: 0.85rem;
+    height: 0.84rem;
+    position: absolute;
+    top: 0.12rem;
+    left:0.24rem;
+}
+.dishPrice{
+    width: 1.77rem;
+    height: 0.84rem;
+    position: absolute;
+    top: 0.12rem;
+    left:1.66rem;
+
+}
+.dishPrice p:nth-child(1){
+    font-family: PingFang-SC-Bold;
+    font-size: 0.28rem;
+    color: #040404;
+    opacity: 0.8;
+}
+.dishPrice p:nth-child(2){
+    width: 1.74rem;
+    height: 0.04rem;
+    border-top:dashed 1px #000000;
+    opacity: 0.1;
+    margin-bottom: 0.07rem;
+}
+.dishPrice p:nth-child(3){
+    font-family: SanFranciscoDisplay-Medium;
+    font-size: 0.24rem;
+    color: #ffac1f;
+}
+.dishCount{
+    width: 1.14rem;
+    height: 0.42rem;
+    position: absolute;
+    top:0.33rem;
+    right: 0.24rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.jia{
+    width: 0.39rem;
+    height: 0.39rem;
+    background-image: url("../images/jia.png");
+    background-size: 0.39rem;
+}
+.jian{
+    width: 0.39rem;
+    height: 0.39rem;
+    background-image: url("../images/jian.png");
+    background-size: 0.39rem;
+}
+.amount{
+    font-family: SanFranciscoDisplay-Bold;
+    font-size: 0.22rem;
+    color: #2450c1;
+}
+.contentBottom{
+    width: 7.02rem;
+    height: 3.48rem;
+    position: absolute;
+    top: 7.94rem;
+    left: 0.24rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+.all{
+    width: 7.01rem;
+    height: 0.92rem;
+    background-color: #fffdfd;
+    border-radius: 0.1rem;
+    line-height: 0.92rem;
+}
+.text{
+
+    font-family: PingFang-SC-Bold;
+    font-size: 0.28rem;
+    color: #040404;
+    opacity: 0.8;
+    float: left;
+    margin-left: 0.24rem;
+}
+.allPrice{
+    font-family: SanFranciscoDisplay-Bold;
+    font-size: 0.28rem;
+    color: #ffac1f;
+    float: right;
+    margin-right: 0.24rem;
+}
+.allPrice span{
+    font-size: 0.24rem;
+}
+.discounts{
+    width: 6.51rem;
+    height: 0.21rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 0.22rem;
+    color: #ffac1f;
+    font-size: 0.18rem;
+
+}
+.more i{
+    font-family: iconfont;
+    font-size: 0.28rem;
+    color: #636363;
+    float: right;
+    margin-right: 0.24rem;
+}
+.green{
+    font-size: 0.18rem;
+    color: #83c779;
+    float: right;
+    margin-right: 0.24rem;
+}
+.toPay{
+    width: 3.57rem;
+    height: 0.57rem;
+    background: #ffac1f;
+    position: absolute;
+    top: 11.65rem;
+    left: 1.72rem;
+    text-align: center;
+    line-height: 0.57rem;
+    font-size: 0.28rem;
+    color: #fefeff;
+    border-radius:0.5rem;
+}
+.toPay a{
+    color: #fefeff;
+}

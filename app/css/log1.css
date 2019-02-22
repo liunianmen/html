@@ -1,0 +1,48 @@
+.content2{
+    width: 5.58rem;
+    height: 4.69rem;
+    background: url("../images/背景3.png") no-repeat;
+    background-size: 5.58rem;
+ /*   position: absolute;
+    top: 3.6rem;
+    left: 0.96rem;*/
+    margin:3.8rem auto;
+    position: relative;
+}
+.logButton{
+    width: 2.49rem;
+    height: 0.6rem;
+    background-color: #666666;
+    border-radius: 0.5rem;
+    text-align: center;
+    line-height: 0.6rem;
+    color: #fff;
+    font-size: 0.28rem;
+    position: absolute;
+    top: 3.18rem;
+    left: 1.55rem;
+}
+.logButton2{
+    width: 2.49rem;
+    height: 0.6rem;
+    background-color: #2450c1;
+    border-radius: 0.5rem;
+    text-align: center;
+    line-height: 0.6rem;
+    color: #fff;
+    font-size: 0.28rem;
+    position: absolute;
+    top: 3.18rem;
+    left: 1.55rem;
+}
+.password2{
+    width: 4rem;
+    height: 0.48rem;
+    position: absolute;
+    top: 2.12rem;
+    left: 0.8rem;
+}
+.password2 img{
+    width: 0.49rem;
+    height: 0.49rem;
+}

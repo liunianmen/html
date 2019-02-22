@@ -1,0 +1,456 @@
+.container{
+    width: 7.02rem;
+    height:100%;
+    min-height: 1px;
+    margin: 0 auto;
+}
+#header{
+    width: 100%;
+    height: 0.88rem;
+    background: #2450c1;
+}
+
+.topBar{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+ /*   background: red;*/
+}
+.searchBox{
+    width: 4rem;
+    height: 0.38rem;
+    border-radius: 0.21rem;
+    margin-left: 1.52rem;
+    background: white;
+}
+.scn{
+    width:0.38rem;
+    height: 0.38rem;
+    background: white;
+    border-radius: 50%;
+    margin-left:1.1rem;
+}
+.search{
+    width: 0.2rem;
+    height: 0.2rem;
+    float: left;
+    margin-left: 0.2rem;
+   /* background: red;*/
+    margin-top: 0.07rem;
+    font-family:"iconfont";
+    color: #ccc;
+}
+.input{
+    width: 3.1rem;
+    height: 0.22rem;
+    float: left;
+   /* background: red;*/
+    border: none;
+    margin-top: 0.08rem;
+    margin-left: 0.12rem;
+    color:#010101;
+
+}
+.camera{
+    width: 0.22rem;
+    height: 0.18rem;
+    font-family: iconfont;
+    margin-top: 0.07rem;
+    float: left;
+}
+.sao{
+    width: 0.2rem;
+    height: 0.2rem;
+    /*background: red;*/
+    font-family: iconfont;
+    float: left;
+    margin-left:0.07rem;
+    margin-top: 0.07rem;
+}
+.banner{
+    width: 7.5rem;
+    height: 3.26rem;
+    box-shadow: 0 3px 15px 0
+    rgba(36, 80, 193, 0.3);
+    position: relative;
+    margin: 0.24rem auto 0;
+}
+.imageBox{
+    width: 7.02rem;
+    height: 3rem;
+    margin: 0 auto;
+    position: relative;
+
+}
+.imageBox>li{
+    width: 7.02rem;
+    height: 3rem;
+    background: #ccc;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.imageBox img{
+    width: 7.02rem;
+    height: 3rem;
+
+}
+.imageBox li.active{
+    z-index: 1;
+}
+.pagerBox{
+    width: 0.8rem;
+    height: 0.14rem;
+    position: absolute;
+    top: 0.16rem;
+    left: 0.34rem;
+    z-index: 99;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.pagerBox li{
+    width: 0.1rem;
+    height: 0.1rem;
+    border-radius: 50%;
+    background: #fff;
+}
+.pagerBox>li.active{
+    background: #2450c1;
+}
+/*导航*/
+#category{
+    width:5.8rem;
+    height:3.54rem;
+    margin:0.48rem auto 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.categoryBox{
+    width:1.18rem;
+    height: 1.58rem;
+    margin-bottom:0.1rem;
+}
+.categoryBox>img{
+    width:1.18rem;
+    height: 1.19rem;
+}
+.categoryBox>p{
+    width:1.2rem;
+    height: 0.27rem;
+    font-size: 0.27rem;
+    margin: 0.1rem auto 0;
+    line-height: 0.27rem;
+    color: #000000;
+    opacity: 0.6;
+    text-align: center;
+}
+.limitTime{
+    width:4.38rem;
+    height: 1.41rem;
+    margin:0.73rem auto 0;
+}
+.limitTop{
+    width: 2.52rem;
+    height: 0.27rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.limitTop p{
+    font-size: 0.28rem;
+}
+.limitTop img{
+    width: 0.26rem;
+    height: 0.26rem;
+}
+.limitTop span:nth-child(2n){
+    width: 0.06rem;
+    height: 0.06rem;
+    background:#23d4ee;
+    border-radius: 50%;
+}
+.limitTop span:nth-child(2n-1){
+    width: 0.06rem;
+    height: 0.06rem;
+    background:#60efd6;
+    border-radius: 50%;
+}
+.limitCenter{
+    width:4.38rem;
+    height: 0.29rem;
+    font-size:0.26rem;
+    margin-top: 0.27rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:#238cee;
+}
+.limitCenter div:nth-child(1){
+    color: #040404;
+    opacity: 0.6;
+}
+.limitBottom{
+    width:2.66rem;
+    height:0.41rem;
+    margin:0.22rem auto 0;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+
+}
+.time{
+    width: 0.32rem;
+    height: 0.41rem;
+    background-color:#bde9fa;
+    text-align: center;
+    line-height: 0.41rem;
+    font-size: 0.26rem;
+    color:#238cee;
+}
+.timeBox{
+    width: 0.74rem;
+    height: 0.41rem;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.mh{
+    color: #238cee;
+    font-size: 0.26rem;
+}
+.list{
+    width: 7.02rem;
+    height: 2.06rem;
+    margin: 0.6rem auto 0;
+}
+.listLeft{
+    width: 3.38rem;
+    height:2.06rem;
+    background-image: url("../images/listLeft.png");
+    background-size:3.38rem;
+    float: left;
+
+}
+.listLeft div{
+    width:1.41rem;
+    height: 1.23rem;
+    margin-top:0.36rem;
+    margin-left:0.2rem;
+}
+.listRight{
+    width: 3.38rem;
+    height:2.06rem;
+    background-image: url("../images/listRight.png");
+    background-size:3.38rem;
+    float: right;
+}
+.listLeft p{
+    text-align:center;
+    font-family: PingFang-SC-Medium;
+    font-size: 0.28rem;
+    color: #feffff;
+}
+.limitCount{
+    text-align: center;
+    font-size:0.2rem;
+    color: #feffff;
+    position: relative;
+}
+.limitCount span:nth-child(1){
+    width:0.06rem;
+    height: 0.06rem;
+    background: #fff;
+    border-radius:50%;
+    position: absolute;
+    left: 0.05rem;
+    top: 0.13rem;
+}
+.limitCount span:nth-child(2){
+    width:0.06rem;
+    height: 0.06rem;
+    background: #fff;
+    border-radius:50%;
+    position: absolute;
+    right: 0.05rem;
+    top: 0.13rem;
+}
+.buttonMore{
+    width:1.12rem;
+    height: 0.33rem;
+    background:url("../images/buttonBac.png");
+    background-size: 1.12rem;
+    text-align: center;
+    font-family: PingFang-SC-Medium;
+    font-size: 0.2rem;
+    color:#feffff;
+    margin:0.22rem auto 0;
+    line-height:0.33rem;
+}
+.listRight p{
+    text-align:center;
+    font-family: PingFang-SC-Medium;
+    font-size: 0.28rem;
+    color: #feffff;
+}
+.listRight div{
+    width:1.41rem;
+    height: 1.23rem;
+    margin-top:0.36rem;
+    margin-left:0.2rem;
+}
+.recommendBox{
+    width:7.5rem;
+    height: 11.8rem;
+    background:#eeeeee;
+    margin: 0.24rem auto 0;
+}
+.recommendText{
+    width: 7.02rem;
+    height: 0.55rem;
+    margin:auto;
+    padding-top: 0.24rem;
+    font-family: PingFang-SC-Bold;
+    font-size: 0.28rem;
+    color: #238cee;
+}
+.recommendShop{
+    width: 7.02rem;
+    height:9.56rem;
+    margin:0.6rem auto;
+    display: flex;
+    align-items:flex-start;
+    flex-wrap: wrap;
+
+}
+.shop{
+    width: 7.02rem;
+    height: 1.66rem;
+    background:#fff;
+    border-radius:0.21rem;
+    position:relative;
+}
+.shopBox{
+    width: 7.02rem;
+    height: 1.66rem;
+}
+.shop img{
+    width:1.27rem;
+    height: 1.27rem;
+    position: absolute;
+    top: 0.2rem;
+    left: 0.2rem;
+}
+.shopInfo{
+    width:3.35rem;
+    height: 1.44rem;
+    position: absolute;
+    top:0.12rem;
+    left:1.65rem;
+}
+.shopInfo div:nth-child(1){
+    font-size:0.28rem;
+    color: #040404;
+}
+.shopInfo div:nth-child(2){
+    width: 1.74rem;
+    height: 0.04rem;
+    border: dashed 0.01rem #000000;
+    opacity: 0.1;
+    margin-top:0.03rem;
+    margin-bottom: 0.05rem;
+}
+.shopInfo div:nth-child(3){
+    font-size: 0.24rem;
+    color: #040404;
+    opacity: 0.6;
+}
+.shopInfo span:nth-child(1){
+    font-size:0.24rem;
+    color: #238cee;
+    margin-right: 0.2rem;
+}
+.shopInfo span:nth-child(2){
+    font-size:0.24rem;
+    color: #ffac1f;
+}
+.shopInfo span:nth-child(3){
+    font-size:0.2rem;
+    color: #ffac1f;
+}
+.shopInfo div:nth-child(5){
+    font-size: 0.2rem;
+    color: #000000;
+    opacity: 0.6;
+}
+.shopInfo i{
+    font-family: iconfont;
+    font-size:0.16rem;
+    color:#000;
+}
+.shoppingCart{
+    width:0.58rem;
+    height:1.06rem;
+    position: absolute;
+    top: 0.22rem;
+    right: 0.2rem;
+}
+.star img{
+    width: 0.22rem;
+    height: 0.21rem;
+    position: absolute;
+    top: 0.05rem;
+    left: 0;
+}
+.star span{
+    color:#ffac1f;
+    font-size: 0.2rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.gouwuche img{
+    width: 0.51rem;
+    height: 0.51rem;
+    position: absolute;
+    top:0.5rem;
+    left:0.05rem;
+}
+.tab{
+    width: 100%;
+    height: 0.99rem;
+    background:#fff;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+
+}
+.icon{
+    width:0.8rem;
+    height:0.74rem;
+}
+#iconFirst img{
+    width: 0.44rem;
+    margin: 0 auto;
+}
+#iconFirst p{
+    color: #238cee;
+    text-align: center;
+}
+.icon img{
+    width: 0.44rem;
+    height: 0.44rem;
+    margin: 0 auto;
+}
+.icon p{
+    font-size: 0.2rem;
+    color: #cbcbcb;
+    text-align: center;
+}

@@ -1,0 +1,201 @@
+.black{
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    opacity: 0.6;
+    z-index: 99;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.payBankBox{
+    width:100%;
+    height: 3.76rem;
+    position:fixed;
+    top: 2.5rem;
+    left:0;
+    z-index:9999;
+}
+.pay3{
+    width: 5.13rem;
+    height: 3.76rem;
+    background-color: #ffffff;
+    border-radius: 0.1rem;
+   /* position:fixed;
+    top: 2.85rem;
+    left:1.17rem;*/
+    margin:0 auto;
+    position: relative;
+    z-index:9999;
+}
+.payName{
+    width:4.57rem;
+    height: 0.28rem;
+    line-height: 0.28rem;
+    position: absolute;
+    top: 0.2rem;
+    left: 0.28rem;
+    text-align: center;
+    font-family: PingFang-SC-Bold;
+    font-size: 0.3rem;
+    color: #2450c1;
+}
+.payBack{
+    width:0.28rem;
+    height: 0.28rem;
+    float: left;
+}
+.payBack img{
+    width: 0.28rem;
+}
+.payCount{
+    width: 100%;
+    height: 0.74rem;
+    position: absolute;
+    top: 0.69rem;
+    left: 0;
+    line-height: 0.74rem;
+    text-align: center;
+    font-family: SanFranciscoDisplay-Bold;
+    font-size: 0.26rem;
+    color: #2450c1;
+}
+.topXian{
+    width: 5.13rem;
+    height: 0.05rem;
+    border-top: solid 0.01rem #000000;
+    opacity: 0.1;
+}
+.bottomXian{
+    width: 5.13rem;
+    height: 0.05rem;
+    border-top: solid 0.01rem #000000;
+    opacity: 0.1;
+    position: absolute;
+    bottom: 0;
+    left:-0.45rem;
+}
+.payBank{
+    width: 4.23rem;
+    height: 0.9rem;
+    position: absolute;
+    top:1.5rem;
+    left:0.45rem;
+}
+.bankName{
+    width: 2.5rem;
+    height: 0.24rem;
+    position: absolute;
+    top: 0.33rem;
+    left: 0;
+    line-height: 0.24rem;
+    font-size: 0.18rem;
+    color: #040404;
+}
+.bankName img{
+    width: 0.24rem;
+    height: 0.24rem;
+    float: left;
+    margin-right: 0.05rem;
+}
+.bankMore{
+    width: 0.09rem;
+    height: 0.15rem;
+    position: absolute;
+    top: 0.39rem;
+    right: 0;
+}
+.bankMore img{
+    width: 0.09rem;
+}
+.password{
+    width: 4.66rem;
+    height: 0.34rem;
+    position: absolute;
+    top: 2.58rem;
+    left: 0.235rem;
+    display: flex;
+    justify-content: space-between;
+}
+.miMa{
+    width: 0.49rem;
+    height: 0.34rem;
+    position: relative;
+}
+.passDian{
+    width: 0.14rem;
+    height: 0.14rem;
+    background-color: #000000;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0.2rem;
+}
+.gan{
+    width: 0.47rem;
+    height: 0.08rem;
+    background-color: #000000;
+    opacity: 0.1;
+    border-radius: 0.5rem;
+    position: absolute;
+    bottom: 0;
+    left: 0.01rem;
+}
+.ganLan{
+    width: 0.47rem;
+    height: 0.08rem;
+    background-color: #2450c1;
+    border-radius: 0.5rem;
+    position: absolute;
+    bottom: 0;
+    left: 0.01rem;
+}
+.shuRu{
+    width: 0.04rem;
+    height: 0.2rem;
+    border-left: solid 0.01rem #000000;
+    position: absolute;
+    top: 0;
+    left: 0.24rem;
+}
+.passFind{
+    width: 1.2rem;
+    height: 0.24rem;
+    position: absolute;
+    bottom: 0.21rem;
+    right: 0.24rem;
+    font-family: PingFang-SC-Bold;
+    font-size: 0.18rem;
+    color: #aeaeae;
+    line-height: 0.24rem;
+
+}
+.tan{
+    width: 0.18rem;
+    height: 0.18rem;
+    position: absolute;
+    left: 0;
+    top: 0.03rem;
+}
+.tan img{
+    width: 0.18rem;
+    height: 0.18rem;
+}
+.findText{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.jianpan{
+    width: 100%;
+    height: 5.11rem;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 9999;
+}
+.jianpan img{
+    width:100%;
+    margin: 0 auto;
+}
+

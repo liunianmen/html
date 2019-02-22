@@ -1,0 +1,367 @@
+.container{
+    width: 7.02rem;
+    height:100%;
+    min-height: 1px;
+    margin: 0 auto;
+}
+#header{
+    width: 100%;
+    height: 1.52rem;
+    background: #2450c1;
+    padding-top: 0.26rem;
+}
+.title{
+    width:7.02rem;
+    height: 0.38rem;
+    display: flex;
+    justify-content: space-between;
+
+}
+.title a{
+    width:0.37rem;
+    height: 0.37rem;
+}
+.title img{
+    width:0.37rem;
+    height: 0.37rem;
+}
+.title div{
+    width: 1.03rem;
+    height: 0.37rem;
+    display: flex;
+    justify-content: space-between;
+}
+#name{
+    width:2.48rem;
+    height: 0.37rem;
+    color:#fff;
+    font-size: 0.38rem;
+    text-align: center;
+    line-height: 0.37rem;
+    padding-left: 0.2rem;
+}
+.intro{
+    width: 7.02rem;
+    height: 1.5rem;
+    background: #fff;
+    margin-top: 0.37rem;
+    box-shadow: 0px 5px 15px 0px
+    rgba(36, 80, 193, 0.3);
+    border-radius: 0.1rem;
+    position: relative;
+}
+.intro img{
+    width:1rem;
+    height:1rem;
+    position: absolute;
+    top:0.24rem;
+    left:0.24rem;
+}
+.shopIntro{
+    width: 3.9rem;
+    height: 1.28rem;
+    position: absolute;
+    top:0.14rem;
+    left: 1.44rem;
+}
+.shopName{
+    width:1.7rem;
+    height: 0.25rem;
+    line-height: 0.25rem;
+    float: left;
+    font-size: 0.28rem;
+    font-family: PingFang-SC-Bold;
+    color: #030303;
+    opacity: 0.6;
+}
+.star{
+    width:0.79rem;
+    height:0.21rem;
+    float: left;
+    margin-top:0.03rem;
+    position: relative;
+}
+.star img{
+    width: 0.22rem;
+    height: 0.21rem;
+    position: absolute;
+    top:0;
+    left: 0.23rem;
+}
+.star span{
+    color:#ffac1f;
+    font-size: 0.2rem;
+    line-height: 0.21rem;
+    position: absolute;
+    top: 0.01rem;
+    right: 0;
+}
+.shopAccount{
+    width: 3.5rem;
+    height: 0.2rem;
+    position: absolute;
+    top:0.33rem;
+    left: 0;
+}
+.shopAccount p{
+    display: block;
+    width:4rem;
+    height: 0.2rem;
+    font-size:0.2rem;
+    color: #8e8e8e;
+    line-height: 0.2rem;
+}
+#shopJian{
+    width: 3.9rem;
+    height: 0.2rem;
+    font-size: 0.2rem;
+    margin-top:0.26rem;
+
+}
+#shopAd{
+    width: 4.3rem;
+    height: 0.2rem;
+    font-size: 0.2rem;
+    margin-top:0.08rem;
+}
+#shopAd i{
+    font-family: iconfont;
+    font-size:0.2rem;
+    color:#8e8e8e;
+}
+#shopJian span{
+    color: #2450c1;
+}
+#shopAd span{
+    color: #ffac1f;
+}
+.other{
+    width:4.25rem;
+    height:0.45rem;
+    margin: 0.6rem auto 0.32rem;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    line-height: 0.45rem;
+    color: #fff;
+    font-size: 0.28rem;
+
+}
+.other div:nth-child(1){
+    width: 1.2rem;
+    height: 0.45rem;
+    background:url("../images/圆角矩形4.png");
+    background-size: 1.2rem;
+}
+.other div:nth-child(2){
+    width: 1.2rem;
+    height: 0.45rem;
+    background:url("../images/圆角矩形5.png");
+    background-size: 1.2rem;
+}
+.other div:nth-child(3){
+    width: 1.2rem;
+    height: 0.45rem;
+    background:url("../images/圆角矩形5.png");
+    background-size: 1.2rem;
+}
+.content{
+    width: 100%;
+    height: 10.8rem;
+    background: #eeeeee;
+    margin:2.32rem auto 0;
+
+}
+.contentBox{
+    width: 7.5rem;
+    height: 10.8rem;
+    margin:0 auto;
+    position: relative;
+}
+.menu{
+    width: 1.19rem;
+    height: 6.36rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    position: absolute;
+    left:0.28rem;
+    top: 0.29rem;
+}
+.menu div{
+    width: 1.19rem;
+    height: 0.45rem;
+    background: url("../images/圆角矩形6.png");
+    background-size:1.19rem ;
+    text-align: center;
+    line-height: 0.45rem;
+    color: #ffac1f;
+    font-size: 0.22rem;
+}
+.menu div:nth-child(6){
+    width: 1.2rem;
+    height: 0.45rem;
+    background: url("../images/圆角矩形7.png");
+    background-size:1.19rem ;
+    color: #fff;
+}
+.menuList{
+    width: 5.51rem;
+    height: 9.1rem;
+    position: absolute;
+    left:1.76rem;
+    top: 0.28rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+.dishList{
+    width: 5.5rem;
+    height: 1.6rem;
+    background-color: #ffffff;
+    border-radius: 0.1rem;
+    position: relative;
+}
+.dishName{
+    font-family: PingFang-SC-Bold;
+    font-size: 0.28rem;
+    color: #040404;
+
+}
+.img1{
+    width: 1.27rem;
+    height: 1.27rem;
+    position: absolute;
+    top: 0.12rem;
+    left: 0.15rem;
+}
+.dishContent{
+    width: 3.58rem;
+    height: 1.32rem;
+    position: absolute;
+    top: 0.12rem;
+    left: 1.66rem;
+}
+.xian{
+    width: 1.74rem;
+    height: 0.04rem;
+    border-top: dashed 0.01rem #000000;
+    opacity: 0.1;
+}
+.dishPrice{
+    color: #2450c1;
+    font-size: 0.24rem;
+
+}
+.dishPrice span{
+    color: #ffac1f;
+}
+.dishCount{
+    color: #8d8d8d;
+    font-size: 0.2rem;
+}
+.dishCount span{
+    color: #2450c1;
+}
+.dishLimit{
+    color: #2450c1;
+}
+.dishContent img{
+    width: 0.39rem;
+    height: 0.39rem;
+    position: absolute;
+    top: 0.95rem;
+    right:0rem;
+}
+.dishCount2{
+    width: 1.14rem;
+    height: 0.42rem;
+    position: absolute;
+    top:0.95rem;
+    right: 0rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.jia{
+    width: 0.39rem;
+    height: 0.39rem;
+    background-image: url("../images/jia.png");
+    background-size: 0.39rem;
+}
+.jian{
+    width: 0.39rem;
+    height: 0.39rem;
+    background-image: url("../images/jian.png");
+    background-size: 0.39rem;
+}
+.amount{
+    font-family: SanFranciscoDisplay-Bold;
+    font-size: 0.22rem;
+    color: #2450c1;
+}
+footer{
+    width:100%;
+    height: 0.98rem;
+    position:fixed;
+    bottom: 0;
+    left: 0;
+    background: #fff;
+}
+.bigBox{
+    width: 7.5rem;
+    height: 0.98rem;
+    margin: 0 auto;
+    position: relative;
+}
+.gouwuche{
+    width: 0.54rem;
+    height: 0.51rem;
+    position: absolute;
+    left: 0.55rem;
+    top: 0.24rem;
+}
+.jiagou{
+    width: 3.5rem;
+    height: 0.7rem;
+    position: absolute;
+    left: 1.45rem;
+    top: 0.2rem;
+    font-size:0.2rem;
+}
+.allPrice{
+    font-size:0.2rem;
+    color: #2450c1;
+}
+.jiagou div{
+    font-size:0.2rem;
+    color: #000000;
+    opacity: 0.6;
+}
+.pay{
+    width: 1.21rem;
+    height: 0.37rem;
+    background: url("../images/圆角矩形8.png");
+    background-size: 1.21rem;
+    position: absolute;
+    right: 0.51rem;
+    top: 0.31rem;
+    color: #fff;
+    text-align: center;
+}
+#pay2{
+    background: url("../images/圆角矩形lan.png");
+    background-size: 1.21rem;
+
+}
+.jiao{
+    width: 0.11rem;
+    height: 0.14rem;
+    font-family: PingFang-SC-Bold;
+    font-size: 0.18rem;
+    position: absolute;
+    top: 0.21rem;
+    left: 0.93rem;
+    color: #fcfcfc;
+
+}

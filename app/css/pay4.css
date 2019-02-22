@@ -1,0 +1,82 @@
+.black{
+    width: 100%;
+    height: 14.92rem;
+    background-color: #000000;
+    opacity: 0.6;
+    z-index: 99;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.payFinger{
+    width: 100%;
+    height: 4.1rem;
+    position: fixed;
+    top: 4.62rem;
+    left:0;
+    z-index:999;
+}
+.pay4{
+    width: 5.13rem;
+    height: 4.1rem;
+    background-color: #ffffff;
+    border-radius: 0.1rem;
+    margin: 0 auto;
+    position: relative;
+}
+.payName{
+    width:4.57rem;
+    height: 0.28rem;
+    line-height: 0.28rem;
+    position: absolute;
+    top: 0.2rem;
+    left: 0.28rem;
+    text-align: center;
+    font-family: PingFang-SC-Bold;
+    font-size: 0.3rem;
+    color: #2450c1;
+}
+.payBack{
+    width:0.28rem;
+    height: 0.28rem;
+    float: left;
+}
+.payBack img{
+    width: 0.28rem;
+}
+.payCount{
+    width: 100%;
+    height: 0.74rem;
+    position: absolute;
+    top: 0.69rem;
+    left: 0;
+    line-height: 0.74rem;
+    text-align: center;
+    font-family: SanFranciscoDisplay-Bold;
+    font-size: 0.26rem;
+    color: #2450c1;
+}
+.topXian{
+    width: 5.13rem;
+    height: 0.05rem;
+    border-top: solid 0.01rem #000000;
+    opacity: 0.1;
+}
+.zhiWen{
+    width: 1.5rem;
+    height: 2.1rem;
+    position: absolute;
+    top: 1.78rem;
+    left:1.81rem;
+    font-family: PingFang-SC-Bold;
+    font-size: 0.2rem;
+    color: #cccccc;
+    display: flex;
+    align-content: space-around;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.zhiWen img{
+    width: 1.15rem;
+    height: 1.15rem;
+}

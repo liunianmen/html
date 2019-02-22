@@ -1,0 +1,190 @@
+/*留言建议内容开始*/
+.content{
+    width: 100%;
+    height: 819px;
+    background-color: #F1F1F1;
+}
+.title{
+    width: 100%;
+    height:120px;
+    background-color: #F1F1F1;
+    text-align: center;
+    line-height: 120px;
+}
+.title h1{
+    color: #F67A82;
+    font-size: 35px;
+    font-weight: 400;
+}
+.messageBody{
+    width: 1170px;
+    height: 759px;
+/*    background: red;*/
+    margin: 0 auto;
+}
+.message{
+    width: 780px;
+    height: 759px;
+    background: #fff;
+    float: left;
+}
+.contact{
+    width: 350px;
+    height: 464px;
+    background: #fff;
+    float: right;
+}
+.messageList{
+    width: 718px;
+    height: 53px;
+/*    background: yellow;*/
+    margin: 0 auto;
+    padding: 13px 0;
+    border-bottom: solid 1px #ccc;
+}
+.messageList2{
+    width: 718px;
+    height: 125px;
+    /*    background: yellow;*/
+    margin: 0 auto;
+    padding: 13px 0;
+    border-bottom: solid 1px #ccc;
+}
+#messageFirst{
+    margin: 30px auto 0;
+}
+.messageList i{
+    font-size: 36px;
+    color: #ccc;
+    float: left;
+}
+.messageList2 i{
+    font-size: 36px;
+    color: #ccc;
+    float: left;
+}
+.user{
+    width: 672px;
+    height: 53px;
+/*    background: red;*/
+    float: right;
+
+}
+.userBox{
+    width: 672px;
+    height: 16px;
+}
+.userName{
+    font-size: 14px;
+    color: #37474f;
+    float: left;
+
+}
+.time{
+    float: right;
+    color: #a3afb7;
+    font-size: 12px;
+}
+.userMessage{
+    width: 672px;
+    height: 19px;
+    font-size: 14px;
+    color: #76838f;
+    float: left;
+}
+.revert{
+    width: 632px;
+    background-color: #f3f7f9;
+    border: 1px solid #e4eaec;
+    border-radius: 3px;
+    padding: 20px;
+    margin-top: 30px;
+    color: #2a333c;
+    font-size: 14px;
+}
+/*联系方式开始*/
+.name{
+    width: 300px;
+    height: 36px;
+    margin: 20px auto 0;
+    border: 1px solid #e4eaec;
+    border-radius: 3px;
+}
+#nameFirst{
+    margin: 30px auto 0;
+}
+.name input{
+    width: 280px;
+    height: 24px;
+   margin-left:10px;
+    border: none;
+    margin-top: 6px;
+    outline: medium;
+}
+.suggest{
+    width: 300px;
+    height: 124px;
+    margin: 20px auto 0;
+    border: 1px solid #e4eaec;
+    border-radius: 3px;
+}
+.suggest textarea{
+    width: 280px;
+    height: 112px;
+    margin-left:10px;
+    border: none;
+    margin-top: 6px;
+    outline: medium;
+}
+
+.pass{
+    width:189px;
+    height: 36px;
+    border: 1px solid #e4eaec;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    float: left;
+}
+.pass input{
+    width: 169px;
+    height: 24px;
+    margin-left:10px;
+    border: none;
+    margin-top: 6px;
+    outline: medium;
+}
+.code{
+    width: 300px;
+    height: 38px;
+    margin: 20px auto 20px;
+}
+.codePic{
+    width: 107px;
+    height: 36px;
+    background-color: #f3f7f9;
+    border: 1px solid #e4eaec;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    float: right;
+}
+.codePic img{
+    display: block;
+    margin:8px auto;
+}
+.submit{
+    width: 300px;
+    height:36px;
+    background-color: #62a8ea;
+    border:solid 1px #89bceb;
+   /* margin: 0 auto;*/
+    margin-left: 25px;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    line-height: 36px;
+    cursor: pointer;
+}
+.submit:hover{
+    background-color: #89bceb;
+}
+/*留言建议内容结束*/
